@@ -58,7 +58,7 @@
             "showArrow": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1279.jpg",
-            "parallax": false,
+            "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#bdb39a",
             "bgVideoRadio": false,
