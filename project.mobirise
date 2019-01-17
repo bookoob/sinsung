@@ -20,7 +20,8 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#ff6633"
+        "#ff6633",
+        "#fafbfc"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -34,7 +35,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/bookoob-logo-140by140-128x128.png",
     "noImageResize": "",
-    "uniqCompNum": 9,
+    "uniqCompNum": 11,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png"
   },
@@ -465,42 +466,68 @@
         },
         {
           "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "showHeading": true,
             "showTitle": true,
             "showText": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showButtons": false,
+            "formBg": "#fafbfc",
+            "formHeader": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-1920x1280.jpg",
+            "parallax": false,
             "bgColorRadio": false,
-            "bgColor": "#ffffff",
+            "bgColor": "#fffffd",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
             "overlay": true,
             "overlayColor": "#dbae54",
             "overlayOpacity": "0.7"
           },
-          "title": "이메일을 등록하세요!",
-          "subtitle": "Get notified about new amazing products",
-          "text": "이메일을 등록하시면 사내도서관 관련 각종 알림을 편하게 받을 수 있습니다.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send</a>",
+          "title": "이메일을 기입하세요.",
+          "text": "이름(또는 원하시는 닉네임)과 이메일을 남겨주세요.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">Get started</a>",
+          "header": "이름(또는 원하시는 닉네임)과 이메일을 남겨주세요.",
           "form": {
             "action": "chang.woong@bookoob.co.kr",
             "alerts": {
-              "success": "감사합니다!"
+              "success": "감사합니다. 더 좋은 사내도서관이 될 수 있도록 노력하겠습니다."
             },
             "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "이름*"
+              },
               "email": {
+                "visible": true,
                 "title": "Email",
-                "customTitle": "당신의 이메일 주소를 입력하세요."
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "이름과 이메일을 남겨주시면 사내도서관 관련 다양한 정보를 보내드립니다. 더 요청하실 내용이 있으시면 써주세요. (빈칸으로 남기셔도 됩니다.)"
               }
             }
           },
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">등록하기</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "subscribe1",
-          "_anchor": "subscribe1-8",
+          "_name": "form1",
+          "_anchor": "form1-a",
           "_styles": {
-            ".form-control-label": {}
+            ".form": {
+              "background": "#fafbfc"
+            }
           }
         },
         {

@@ -555,8 +555,8 @@ a:hover {
 #counters1-7 .count {
   color: #74a3c7;
 }
-#subscribe1-8 .form-control-label {
-  color: undefined;
+#form1-a .form {
+  background: #fafbfc;
 }
 #footer4-a p {
   color: #000;
