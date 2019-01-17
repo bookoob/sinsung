@@ -34,7 +34,7 @@
     ],
     "favicon": "@PROJECT_PATH@/assets/images/bookoob-logo-140by140-128x128.png",
     "noImageResize": "",
-    "uniqCompNum": 8,
+    "uniqCompNum": 9,
     "versionPublish": "4.8.10",
     "screenshot": "screenshot.png"
   },
@@ -462,6 +462,46 @@
           ],
           "_name": "counters1",
           "_anchor": "counters1-7"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#dbae54",
+            "overlayOpacity": "0.7"
+          },
+          "title": "이메일을 등록하세요!",
+          "subtitle": "Get notified about new amazing products",
+          "text": "이메일을 등록하시면 사내도서관 관련 각종 알림을 편하게 받을 수 있습니다.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send</a>",
+          "form": {
+            "action": "chang.woong@bookoob.co.kr",
+            "alerts": {
+              "success": "감사합니다!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "당신의 이메일 주소를 입력하세요."
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "subscribe1",
+          "_anchor": "subscribe1-8",
+          "_styles": {
+            ".form-control-label": {}
+          }
         },
         {
           "_params": {
